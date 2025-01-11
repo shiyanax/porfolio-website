@@ -1,0 +1,27 @@
+body {
+  background: #5DB996;
+  font-family: "Rubik", serif;
+}
+
+.fontAwsome {
+  background-color: #20847c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.8;
+}
